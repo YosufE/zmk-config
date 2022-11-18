@@ -10,10 +10,10 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
-    &ext_power EP_ON
-    
     keymap {
         compatible = "zmk,keymap";
+
+        &ext_power EP_ON
 
         default_layer {
 // ------------------------------------------------------------------------------------------------------------
